@@ -9,7 +9,6 @@ import javax.swing.WindowConstants;
 public class B extends Canvas {
 	
 	private static final int SCALE = 10;
-
 	public static void drawPicture(double[] values) {
 		try {
 			int dim = (int) Math.sqrt(values.length);
@@ -29,8 +28,7 @@ public class B extends Canvas {
 		frame.add(new B(newValues));
 		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		frame.setVisible(true);
-	}
-	
+	}	
 	private static final long serialVersionUID = 1480902466428347458L;
 	private final int WIDTH;
 	private final int HEIGHT;
